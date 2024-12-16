@@ -1,0 +1,18 @@
+# Exclude __pycache__ folders
+__pycache__/
+
+# Exclude all files within specific folders but keep the folder
+dataset/*
+log/*
+NewData/*
+NewDatalog/*
+
+# However, do not exclude .gitkeep files
+!dataset/.gitkeep
+!log/.gitkeep
+!NewData/.gitkeep
+!NewDatalog/.gitkeep
+
+# Exclude all .pyc files
+*.pyc
+
